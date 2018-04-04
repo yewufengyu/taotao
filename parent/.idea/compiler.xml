@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="content-interface" />
+        <module name="content-service" />
+        <module name="manager-dao" />
+        <module name="manager-interface" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+        <module name="taotao-portal-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.7" />
+      <module name="content" target="1.7" />
+      <module name="content-interface" target="1.7" />
+      <module name="content-service" target="1.7" />
+      <module name="manager" target="1.7" />
+      <module name="manager-dao" target="1.7" />
+      <module name="manager-interface" target="1.7" />
+      <module name="manager-pojo" target="1.7" />
+      <module name="manager-service" target="1.7" />
+      <module name="manager-web" target="1.7" />
+      <module name="parent" target="1.7" />
+      <module name="taotao-portal-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="PROCEED_ON_ERROR" value="false" />
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+  </component>
+</project>
